@@ -1,0 +1,175 @@
+html , body{
+	 margin:0px;
+	 padding: 0px;
+	 font-family: 'Cairo', sans-serif;
+	 background: #eeeeee;	
+}
+header nav , .dropdown-toggle{
+	background-color: #1a2732;
+	font-size:1rem;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: .255em;
+    content: "";
+     border-top: 0px; 
+     border-right: 0px; 
+     border-bottom: 0px; 
+     border-left: 0px;
+}
+.btn-nav-dropdown{
+	border:0px !important;
+}
+.btn-nav-dropdown:hover{
+	background-color: #1a2732;
+}
+.show>.btn-secondary.dropdown-toggle {
+     background-color: #1a2732; 
+}
+.show>.btn-secondary.dropdown-toggle:focus {
+     box-shadow: 0 0 0 0 #1a2732; 
+}
+.logo-img{
+	max-width:3.5rem;
+	height: 3.5rem;
+	border-radius: 50px;
+}
+
+nav a:hover{
+	text-decoration: none;
+}
+
+.nav-icons a i{
+	font-size: 1.4rem;
+}
+.sidbar-ul{
+    background-color: #394a59;
+    height: 750px !important;
+}
+
+.sidbar-ul li a {
+	display: block;
+	color: white;
+	font-size: 23px;
+	text-decoration: none;
+	text-align: center;	
+    font-weight:400;
+    position: relative;
+
+}
+.breadcrumb{
+	display: block !important;
+}
+.h-auto{
+	height: 55px !important;
+}
+
+.sidbar-ul li a span{
+	min-width: 300px;
+}
+.sidbar-ul li{
+	list-style-type: none;
+	border-bottom: 1px solid white;
+	height: 90px;
+}
+
+.title-page{
+	font-size: 25px;
+	color: #9f9ba5;
+}
+
+ol.breadcrumb{
+	background-color: white;
+	border: 1px solid #c4c0ca;
+}
+
+.breadcrumb-h{
+	height: 34px !important;
+}
+.btn-sidbar{
+	display: none;
+}
+
+ol.breadcrumb li a {
+    color:#4c5268;
+    font-weight: 600;
+}
+
+.div-title-table
+{
+	background-color:#1a2732; 
+}
+.p-title-table{
+	font-size: 20px;
+   font-weight: 400;
+   line-height:18px;
+
+}
+
+
+form input[name='search']{
+	border-radius: 50px;
+	width:250px!important;
+	padding-left: 10%;
+}
+
+.form-ser{
+	position: relative;
+}
+.icon-search{
+	position: absolute;
+	right: 92%;
+	top: 18%;
+}
+
+@media(max-width: 991px){
+	.sidbar-hidden{
+	display: none;
+}
+.btn-sidbar{
+	display: inline-block;
+	cursor: pointer;
+	font-size: 20px;
+}
+table tr td{
+	font-size: 10px;
+}
+th{
+	font-size: 10px;
+}
+	}
+
+
+@media(min-width: 991px){
+
+	.hero{
+	position: relative;
+}
+.content{
+	position: absolute;
+	top: 200px;
+}
+}
+
+@media(max-width: 600px){
+	.nav-time{
+		display: none;
+	}
+
+	.nav-icons{
+		text-align: center !important;
+		padding-right: 0px !important;
+	}
+
+	 .dropdown{
+		text-align: center !important;
+		padding: 0px !important;
+	}
+}
+
+
+
+
+

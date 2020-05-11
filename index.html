@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assts/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assts/css/style.css">
+
+     <!-- fonts google -->
+    <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+
+    <!-- icons -->
+    <link href="assts/css/all.min.css" rel="stylesheet">
+
+    <title>الصفحة الرئيسية</title>
+  </head>
+  <body>
+
+       <!-- header  -->
+
+    <header>
+
+        <div class="container-fluid">
+            <nav class="row">
+            
+              <!-- col  -->
+              <div class="col-md-7 col-8">
+                <div class="dropdown text-left pl-5">
+                  <a class="btn btn-nav-dropdown btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-caret-down"></i>
+                    خالد مجدي البردويل
+                   <img src="assts/images/img.jpeg" class="img-fluid logo-img" > </a>
+                    <p class="text-light float-right pt-3 nav-time  "><i class="far fa-clock"></i> 12:12:53</p>
+
+
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">الاعدادت </a>
+                    <a class="dropdown-item" href="#">محامين في النظام</a>
+                    <a class="dropdown-item" href="#">الدعم الفني</a>
+                    <hr>
+                   <a class="dropdown-item" href="#">تسجيل الخروج</a>
+
+                  </div>
+                </div>
+
+
+              </div>     
+                <!--  end col  -->
+
+
+
+
+                <!-- col  -->
+              <div class="col-md-5 nav-icons col-4 text-right pr-5  pt-4">
+
+
+
+                     <!-- icon add -->
+             <a href="#" class="mr-1"   data-toggle="modal" data-target="#addModal">
+                 <i class="fas fa-user-plus text-light"></i>
+               </a>
+                    <!-- end icon add -->
+
+                       <!-- icon setting -->
+                    <a href="#" class="mr-1"   data-toggle="modal" data-target="#settingModal">
+                           <i class="fas fa-cog text-light"></i>
+                       </a>
+                      <!-- end icon setting --> 
+
+                  <!-- icon Notifications -->
+                   <a href="#" class="mr-1"  data-toggle="modal" data-target="#exampleModal">
+                       <i class="fas fa-bell text-light"></i>
+                   </a>
+                  <!-- end icon Notifications -->
+
+
+               <!-- Modal  add-->
+          <div class="modal fade " id="addModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                         <h5 class="modal-title" id="exampleModalLabel">طلبات الاضافة</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+              
+
+
+                <div class="modal-body">
+                                     <!-- table  -->
+                       <table class="table">
+                          <thead>
+                            <tr>                       
+                              <th scope="col">رفض الطلب</th>
+                              <th scope="col">قبول الطلب </th>
+                              <th scope="col">صاحب الطلب</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td><button type="button" class="btn btn-danger">الغاء</button></td>
+                              <td><button type="button" class="btn btn-dark">تأكيد</button></td>
+                              <td>khaled</td>
+                            </tr>
+                            <tr>
+                             
+                               <td><button type="button" class="btn btn-danger">الغاء</button></td>
+                              <td><button type="button" class="btn btn-dark">تأكيد</button></td>
+                              <td>hassan elbardawell</td>
+                            </tr>
+                            <tr>  
+                               <td><button type="button" class="btn btn-danger">الغاء</button></td>
+                              <td><button type="button" class="btn btn-dark">تأكيد</button></td>
+                              <td>sami elbardawell</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                 <!-- end table  -->
+                </div> 
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      <!-- end model add -->
+
+
+
+
+
+    
+
+
+               <!-- Modal  Notifications-->
+          <div class="modal fade " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title " id="exampleModalLabel">الاشعارات </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                 <h5 class="modal-title mb-3" id="exampleModalLabel">الجلسات</h5>
+                 <!-- table  -->
+                 <table class="table">
+                    <thead>
+                      <tr>                       
+                        <th scope="col">اسناد مهمة</th>
+                        <th scope="col">تاريخ الجلسة</th>
+                        <th scope="col">رقم القضية </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><button type="button" class="btn btn-dark" data-toggle="modal" data-target="#addJobModal">اختر الحساب</button></td>
+                        <td>1/1/2019</td>
+                        <th scope="row">1</th>
+                      </tr>
+                      <tr>
+                       
+                        <td><button type="button" class="btn btn-dark" data-toggle="modal" data-target="#addJobModal">اختر الحساب</button></td>
+                        <td>1/1/2019</td>
+                         <th scope="row">2</th>
+                      </tr>
+                      <tr>  
+                        <td><button type="button" class="btn btn-dark" data-toggle="modal" data-target="#addJobModal">اختر الحساب</button></td>
+                        <td>2/1/2019</td>
+                        <th scope="row">3</th>
+                      </tr>
+                    </tbody>
+                  </table>
+                 <!-- end table  -->
+                </div>
+
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      <!-- end model Notifications -->
+
+
+
+                     <!-- Modal  setting-->
+          <div class="modal fade" id="settingModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">اعدادات الحساب </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                     <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">الاسم </label>
+                            <input type="text" class="form-control" id="recipient-name">
+                          </div>
+
+                           <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">كلمة السر </label>
+                            <input type="text" class="form-control" id="recipient-name">
+                          </div>
+
+                          <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">الايميل</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                          </div>
+
+                          <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">الصورة الشخصية </label>
+                          </div>
+
+                          <div class="input-group mb-3">
+                                <div class="custom-file">
+                                  <input type="file" class="custom-file-input" id="inputGroupFile02">
+                                  <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">
+                                    
+                                  </label>
+                                </div>
+
+                                <div class="input-group-append">
+                                  <span class="input-group-text" id="inputGroupFileAddon02">ارفع صورة </span>
+                                </div>
+                              </div>
+                           
+                             
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                  <button type="button" class="btn btn-primary">حفظ التغيرات</button>
+                </div>
+              </div>
+            </div>
+          </div>
+               <!-- end Modal  setting-->
+
+      <!--  add  Mission -->
+                  <div class="modal fade bd-example-modal-xl" id="addJobModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-xl" role="document">
+                    <div class="modal-content ">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">اسناد مهمة </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                      
+                        <form method="get" action="">   
+
+
+                          <div class="input-group mb-3">
+                            <select class="custom-select" id="inputGroupSelect02">
+                              <option selected>Choose...</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                            <div class="input-group-append">
+                              <label class="input-group-text" for="inputGroupSelect02">اختر الحساب</label>
+                            </div>
+                          </div>
+
+
+                                <div class="form-group">
+                                  <label for="message-text" class="col-form-label">ملاحظات</label>
+                                  <textarea class="form-control" id="message-text"></textarea>
+                                </div>
+
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                        <button type="button" class="btn btn-primary">اسناد المهمة </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      <!--  end add Mission  -->
+ 
+              </div>
+              <!--  end col  --> 
+
+            </nav>
+        </div>
+   </header>
+   <!-- end header  -->
+
+   
+<!-- main  -->
+     <main>
+   <div class="container-fluid pl-0 pr-0">
+
+        <div class="row hero  no-gutters">
+          <div class="col-lg-10 col-12 small-height">
+            <div class="w-100 h-auto">
+              <h1 class="float-right title-page mr-3 mt-3">الصفحة الرئيسية  <i class="fas fa-home"></i></h1>  
+            </div>
+            
+          <div class="pr-5 pl-5 mt-4">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb breadcrumb-h pt-1 pb-1">
+
+                <li class="breadcrumb-item btn-sidbar  active float-left" aria-current="page"><i class="fas fa-bars"></i></li>
+
+                <li class="breadcrumb-item  active float-right" aria-current="page"><a href="#">الصفحة الرئيسية /<i class="fas fa-home"></i></a></li>
+              </ol>
+            </nav>
+
+    
+
+          </div>
+
+ 
+            
+          </div>
+
+          <div class="col-lg-2  col-12 no-gutters sidbar-hidden " id="sidbar">
+            <ul class="sidbar-ul pl-0 mb-0"><i class=""></i>
+              <li><a href="index.html" class="pt-4 pb-4">اﻟﺮﺋﻴﺴﻴﺔ <span><i class="fas fa-home"></i></span> </a></li>
+              <li><a href="files.html" class="pt-4 pb-4">ملفات <span><i class="far fa-file-alt"></i></span> </a></li>
+              <li><a href="add-issue.html" class="pt-4 pb-4">اضافة قضية <span><i class="fas fa-plus-circle"></i></span> </a></li>
+              <li><a href="add-req.html" class="pt-4 pb-4">اضافة طلب <span><i class="fas fa-plus-circle"></i></span> </a></li>
+              <li><a href="add-mission.html" class="pt-4 pb-4">مهمات <span><i class="fas fa-file-signature"></i></span> </a></li>
+              <li><a href="add-person.html" class="pt-4 pb-4">اضافة حساب <span><i class="fas fa-user-plus"></i></span> </a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-10 col-12  content ">
+         <div class="container">
+          <div class="row div-title-table ">
+             <div class="col-md-6 col-12 pl-5">
+              <form class="form-ser mt-1">
+                <input type="text" name="search" placeholder="رقم القضية / اسم الموكل">
+                <i class="fas fa-search icon-search"></i>
+              </form>  
+             </div>
+
+              <div class=" col-md-6  col-12 text-right pr-5 pt-2">
+               <p class="text-light p-title-table">الجلسات اليومية المنتظرة</p>
+             </div>
+
+           
+         </div>
+          </div>  
+           
+          <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">المكلف بالجلسة</th>
+                  <th scope="col">اسم المحكمة</th>
+                  <th scope="col">القضية</th>
+                  <th scope="col">اسم الموكل</th>
+                  <th scope="col">ساعة الجلسة</th>
+                  <th scope="col">رقم القضية</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>خالد البردويل</td>
+                  <td>محكمة العدل</td>
+                  <td>سرقة</td>
+                  <td>احمد حمدان</td>
+                  <td>التاسعة ص</td>
+                  <td>40521357</td>
+                </tr>
+
+                <tr>
+                  <td>خالد البردويل</td>
+                  <td>محكمة العدل</td>
+                  <td>سرقة</td>
+                  <td>احمد حمدان</td>
+                  <td>التاسعة ص</td>
+                  <td>40521357</td>
+                </tr>
+               
+              </tbody>
+            </table>
+
+          </div>
+
+
+
+
+        </div>
+
+
+     
+      </div> 
+     </main>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assts/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="assts/js/popper.min.js"></script>
+    <script src="assts/js/bootstrap.min.js"></script>
+    <script src="assts/js/jquery-3.4.1.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $('.btn-sidbar').click(function(){
+          $('#sidbar').toggle(1000);
+        });
+
+             $(window).resize(function(){     
+
+       if ($('body').width() < 920 ){
+
+              
+
+       }else{
+               console.log("big");
+
+       }
+     });
+
+      });
+
+
+ 
+     
+    </script>
+  </body>
+</html>

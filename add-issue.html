@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assts/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assts/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assts/css/add-iss.css">
+
+     <!-- fonts google -->
+    <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+
+    <!-- icons -->
+    <link href="assts/css/all.min.css" rel="stylesheet">
+
+    <title>اﺿﺎﻓﺔ ﻗﻀﻴﺔ</title>
+  </head>
+  <body>
+
+       <!-- header  -->
+
+    <header>
+
+        <div class="container-fluid">
+            <nav class="row">
+            
+              <!-- col  -->
+              <div class="col-md-7 col-8">
+                <div class="dropdown text-left pl-5">
+                  <a class="btn btn-nav-dropdown btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-caret-down"></i>
+                    ﺧﺎﻟﺪ ﻣﺠﺪﻱ اﻟﺒﺮﺩﻭﻳﻞ
+                   <img src="assts/images/img.jpeg" class="img-fluid logo-img" > </a>
+                    <p class="text-light float-right pt-3 nav-time  "><i class="far fa-clock"></i> 12:12:53</p>
+
+
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">اﻻﻋﺪاﺩﺕ </a>
+                    <a class="dropdown-item" href="#">ﻣﺤﺎﻣﻴﻦ ﻓﻲ اﻟﻨﻈﺎﻡ</a>
+                    <a class="dropdown-item" href="#">اﻟﺪﻋﻢ اﻟﻔﻨﻲ</a>
+                    <hr>
+                   <a class="dropdown-item" href="#">ﺗﺴﺠﻴﻞ اﻟﺨﺮﻭﺝ</a>
+
+                  </div>
+                </div>
+
+
+              </div>     
+                <!--  end col  -->
+
+
+
+
+                <!-- col  -->
+              <div class="col-md-5 nav-icons col-4 text-right pr-5  pt-4">
+
+
+
+                     <!-- icon add -->
+             <a href="#" class="mr-1"   data-toggle="modal" data-target="#addModal">
+                 <i class="fas fa-user-plus text-light"></i>
+               </a>
+                    <!-- end icon add -->
+
+                       <!-- icon setting -->
+                    <a href="#" class="mr-1"   data-toggle="modal" data-target="#settingModal">
+                           <i class="fas fa-cog text-light"></i>
+                       </a>
+                      <!-- end icon setting --> 
+
+                  <!-- icon Notifications -->
+                   <a href="#" class="mr-1"  data-toggle="modal" data-target="#exampleModal">
+                       <i class="fas fa-bell text-light"></i>
+                   </a>
+                  <!-- end icon Notifications -->
+
+
+               <!-- Modal  add-->
+          <div class="modal fade " id="addModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                         <h5 class="modal-title" id="exampleModalLabel">ﻃﻠﺒﺎﺕ اﻻﺿﺎﻓﺔ</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+              
+
+
+                <div class="modal-body">
+                                     <!-- table  -->
+                       <table class="table">
+                          <thead>
+                            <tr>                       
+                              <th scope="col">ﺭﻓﺾ اﻟﻄﻠﺐ</th>
+                              <th scope="col">ﻗﺒﻮﻝ اﻟﻄﻠﺐ </th>
+                              <th scope="col">ﺻﺎﺣﺐ اﻟﻄﻠﺐ</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td><button type="button" class="btn btn-danger">اﻟﻐﺎء</button></td>
+                              <td><button type="button" class="btn btn-dark">ﺗﺄﻛﻴﺪ</button></td>
+                              <td>khaled</td>
+                            </tr>
+                            <tr>
+                             
+                               <td><button type="button" class="btn btn-danger">اﻟﻐﺎء</button></td>
+                              <td><button type="button" class="btn btn-dark">ﺗﺄﻛﻴﺪ</button></td>
+                              <td>hassan elbardawell</td>
+                            </tr>
+                            <tr>  
+                               <td><button type="button" class="btn btn-danger">اﻟﻐﺎء</button></td>
+                              <td><button type="button" class="btn btn-dark">ﺗﺄﻛﻴﺪ</button></td>
+                              <td>sami elbardawell</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                 <!-- end table  -->
+                </div> 
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">اﻏﻼﻕ</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      <!-- end model add -->
+
+
+
+
+
+    
+
+
+               <!-- Modal  Notifications-->
+          <div class="modal fade " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title " id="exampleModalLabel">اﻻﺷﻌﺎﺭاﺕ </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                 <h5 class="modal-title mb-3" id="exampleModalLabel">اﻟﺠﻠﺴﺎﺕ</h5>
+                 <!-- table  -->
+                 <table class="table">
+                    <thead>
+                      <tr>                       
+                        <th scope="col">اﺳﻨﺎﺩ ﻣﻬﻤﺔ</th>
+                        <th scope="col">ﺗﺎﺭﻳﺦ اﻟﺠﻠﺴﺔ</th>
+                        <th scope="col">ﺭﻗﻢ اﻟﻘﻀﻴﺔ </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><button type="button" class="btn btn-dark" data-toggle="modal" data-target="#addJobModal">اﺧﺘﺮ اﻟﺤﺴﺎﺏ</button></td>
+                        <td>1/1/2019</td>
+                        <th scope="row">1</th>
+                      </tr>
+                      <tr>
+                       
+                        <td><button type="button" class="btn btn-dark" data-toggle="modal" data-target="#addJobModal">اﺧﺘﺮ اﻟﺤﺴﺎﺏ</button></td>
+                        <td>1/1/2019</td>
+                         <th scope="row">2</th>
+                      </tr>
+                      <tr>  
+                        <td><button type="button" class="btn btn-dark" data-toggle="modal" data-target="#addJobModal">اﺧﺘﺮ اﻟﺤﺴﺎﺏ</button></td>
+                        <td>2/1/2019</td>
+                        <th scope="row">3</th>
+                      </tr>
+                    </tbody>
+                  </table>
+                 <!-- end table  -->
+                </div>
+
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">اﻏﻼﻕ</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      <!-- end model Notifications -->
+
+
+
+                     <!-- Modal  setting-->
+          <div class="modal fade" id="settingModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">اﻋﺪاﺩاﺕ اﻟﺤﺴﺎﺏ </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                     <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">اﻻﺳﻢ </label>
+                            <input type="text" class="form-control" id="recipient-name">
+                          </div>
+
+                           <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">ﻛﻠﻤﺔ اﻟﺴﺮ </label>
+                            <input type="text" class="form-control" id="recipient-name">
+                          </div>
+
+                          <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">اﻻﻳﻤﻴﻞ</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                          </div>
+
+                          <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">اﻟﺼﻮﺭﺓ اﻟﺸﺨﺼﻴﺔ </label>
+                          </div>
+
+                          <div class="input-group mb-3">
+                                <div class="custom-file">
+                                  <input type="file" class="custom-file-input" id="inputGroupFile02">
+                                  <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">
+                                    
+                                  </label>
+                                </div>
+
+                                <div class="input-group-append">
+                                  <span class="input-group-text" id="inputGroupFileAddon02">اﺭﻓﻊ ﺻﻮﺭﺓ </span>
+                                </div>
+                              </div>
+                           
+                             
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">اﻏﻼﻕ</button>
+                  <button type="button" class="btn btn-primary">ﺣﻔﻆ اﻟﺘﻐﻴﺮاﺕ</button>
+                </div>
+              </div>
+            </div>
+          </div>
+               <!-- end Modal  setting-->
+
+      <!--  add  Mission -->
+                  <div class="modal fade bd-example-modal-xl" id="addJobModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-xl" role="document">
+                    <div class="modal-content ">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">اﺳﻨﺎﺩ ﻣﻬﻤﺔ </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                      
+                        <form method="get" action="">   
+
+
+                          <div class="input-group mb-3">
+                            <select class="custom-select" id="inputGroupSelect02">
+                              <option selected>Choose...</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                            <div class="input-group-append">
+                              <label class="input-group-text" for="inputGroupSelect02">اﺧﺘﺮ اﻟﺤﺴﺎﺏ</label>
+                            </div>
+                          </div>
+
+
+                                <div class="form-group">
+                                  <label for="message-text" class="col-form-label">ﻣﻼﺣﻈﺎﺕ</label>
+                                  <textarea class="form-control" id="message-text"></textarea>
+                                </div>
+
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">اﻏﻼﻕ</button>
+                        <button type="button" class="btn btn-primary">اﺳﻨﺎﺩ اﻟﻤﻬﻤﺔ </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      <!--  end add Mission  -->
+ 
+              </div>
+              <!--  end col  --> 
+
+            </nav>
+        </div>
+   </header>
+   <!-- end header  -->
+
+   
+<!-- main  -->
+     <main>
+   <div class="container-fluid pl-0 pr-0">
+
+        <div class="row hero  no-gutters">
+          <div class="col-lg-10 col-12 small-height">
+            <div class="w-100 h-auto">
+              <h1 class="float-right title-page mr-3 mt-3">اﺿﺎﻓﺔ ﻗﻀﻴﺔ   <i class="fas fa-plus-circle"></i></h1>  
+            </div>
+            
+          <div class="pr-5 pl-5 mt-4">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb breadcrumb-h pt-1 pb-1">
+
+                <li class="breadcrumb-item btn-sidbar  active float-left" aria-current="page"><i class="fas fa-bars"></i></li>
+
+                <li class="breadcrumb-item  active float-right rtl" aria-current="page"><a href="add-issue.html"> <i class="fas fa-plus-circle"></i> اﺿﺎﻓﺔ ﻗﻀﻴﺔ </a></li>
+              </ol>
+            </nav>
+
+    
+
+          </div>
+
+ 
+            
+          </div>
+
+          <div class="col-lg-2  col-12 no-gutters sidbar-hidden " id="sidbar">
+            <ul class="sidbar-ul pl-0 mb-0"><i class=""></i>
+              <li><a href="index.html" class="pt-4 pb-4">اﻟﺮﺋﻴﺴﻴﺔ <span><i class="fas fa-home"></i></span> </a></li>
+              <li><a href="files.html" class="pt-4 pb-4">ملفات <span><i class="far fa-file-alt"></i></span> </a></li>
+              <li><a href="add-issue.html" class="pt-4 pb-4">اضافة قضية <span><i class="fas fa-plus-circle"></i></span> </a></li>
+              <li><a href="add-req.html" class="pt-4 pb-4">اضافة طلب <span><i class="fas fa-plus-circle"></i></span> </a></li>
+              <li><a href="add-mission.html" class="pt-4 pb-4">مهمات <span><i class="fas fa-file-signature"></i></span> </a></li>
+              <li><a href="add-person.html" class="pt-4 pb-4">اضافة حساب <span><i class="fas fa-user-plus"></i></span> </a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-10 col-12  content ">
+         <div class="container">
+              <div class="row">
+
+                <div class="col-md-4 col-12 offset-md-1 box box-hide box-change2">
+                  <div class="rtl text-center title-box">نوع الجزاء </div>
+                  <form class=" text-center ">
+                     <input type="radio" id='radio11' name="radio" value="male"> <label for="radio11" class="choose-radio">دعوى </label> <input id="radio22" type="radio" name="radio" value="female"> <label class="choose-radio" for="radio22"> شكوى </label> 
+                  </form>
+                </div>
+
+                <div class="col-md-4 col-12 offset-md-7 box box-main">
+                  <div class="rtl text-center title-box">ﻧﻮﻉ اﻟﻘﻀﻴﺔ </div>
+                  <form class=" text-center">
+                     <input type="radio" id='radio1' name="radio" value="male"> <label for="radio1" class="choose-radio"> ﻣﺪﻧﻲ </label> <input id="radio2" type="radio" name="radio" value="female"> <label class="choose-radio" for="radio2"> ﺟﺰاء </label> 
+                  </form>
+                </div>
+
+                <div class="col-md-6 col-12 box mt-5">
+                  <div class="rtl text-center title-box">اﻟﺨﺼﻢ </div>
+                  <form class="ml-5 pl-5 form-big">
+                     <div class="mb-2 div-name">
+                      <i class="fas fa-plus-circle icons-input"></i>
+                      <input type="text" id="name"   name="name">   <label for="name" class=" choose-radio">اﻻﺳﻢ </label>  
+
+                     </div>
+                     
+                     <div class="mb-2 div-name2">
+                      <i class="fas fa-plus-circle icons2-input"></i>
+                      <input type="text" id="name"   name="name">   <label for="name" class="choose-radio">اﻟﻮﻛﻼء </label>  
+                     </div>
+
+                     <div class="mb-2">
+                      <input type="text" id="name"   name="name">   <label for="name" class="choose-radio">اﻟﺼﻔﺔ </label>  
+                     </div>
+
+                     <div class="mb-2">
+                      <input type="text" id="name"   name="name">   <label for="name" class="choose-radio">ﺭﻗﻢ اﻟﺠﻮاﻝ </label>  
+                     </div>
+
+                     <div class="mb-2">
+                      <input type="text" id="name"   name="name">   <label for="name" class="choose-radio">ﺭﻗﻢ اﻟﻬﺎﺗﻒ </label>  
+                     </div>
+
+                     <div class="mb-2">
+                      <input type="text" id="name"   name="name">   <label for="name" class="choose-radio">اﻟﻌﻨﻮاﻥ<label>  
+                     </div>
+
+                       <div class="mb-2">
+                      <button class="btn btn-primary">حفظ</button> 
+                     </div>
+                       
+                  </form>
+                </div>
+
+                <div class="col-md-6 col-12 box mt-5">
+                  <div class="rtl text-center title-box">اﻟﻤﻮﻛﻞ </div>
+                  <form class="ml-5 pl-5 form-big">
+                     <div class="mb-2 div-name3">
+                      <i class="fas fa-plus-circle icons3-input"></i>
+                      <input type="text" id="name"   name="name">   <label for="name" class=" choose-radio">اﻻﺳﻢ </label>  
+
+                     </div>
+                     
+                     <div class="mb-2 div-name4">
+                      <i class="fas fa-plus-circle icons4-input"></i>
+                      <input type="text" id="name"   name="name">   <label for="name" class="choose-radio">اﻟﻮﻛﻼء </label>  
+                     </div>
+
+                     <div class="mb-2">
+                      <input type="text" id="name"   name="name">   <label for="name" class="choose-radio">اﻟﺼﻔﺔ </label>  
+                     </div>
+
+                     <div class="mb-2">
+                      <input type="text" id="name"   name="name">   <label for="name" class="choose-radio">ﺭﻗﻢ اﻟﺠﻮاﻝ </label>  
+                     </div>
+
+                     <div class="mb-2">
+                      <input type="text" id="name"   name="name">   <label for="name" class="choose-radio">ﺭﻗﻢ اﻟﻬﺎﺗﻒ </label>  
+                     </div>
+
+                     <div class="mb-2">
+                      <input type="text" id="name"   name="name">   <label for="name" class="choose-radio">اﻟﻌﻨﻮاﻥ<label>  
+                     </div>
+
+                         <div class="mb-2">
+                      <button class="btn btn-primary">حفظ</button> 
+                     </div>
+                       
+                  </form>
+                </div>
+
+              </div>
+
+              <div class="row">
+
+                <div class="col-6 box box-change box-hide mt-5">
+                  <div>
+                    
+                   <div class="rtl text-center title-box">بيانات القضية </div>
+                    <form class="ml-5 pl-5 form-big">
+                     <div class="mb-2">
+                      <input type="text" id="name"   name="name">   <label for="name" class=" choose-radio">رقم القضية </label>  
+
+                     </div>
+                     
+                     <div class="mb-2 ">
+                      <input type="text" id="name"   name="name">   <label for="name" class="choose-radio">رقم الملف </label>  
+                     </div>
+
+                     <div class="mb-2">
+                      <input type="text" id="name"   name="name">   <label for="name" class="choose-radio">اسم المحكمة </label>  
+                     </div>
+
+                     <div class="mb-2">
+                      <input type="text" id="name"   name="name">   <label for="name" class="choose-radio">رقم ملف النيابة</label>  
+                     </div>
+
+                     <div class="mb-2">
+                      <input type="text" id="name"   name="name">   <label for="name" class="choose-radio">ﺭقم ملف الشرطة </label>  
+                     </div>
+
+                     <div class="mb-2">
+                      <input type="text" id="name"   name="name">   <label for="name" class="choose-radio">الهيئة الحاكمة<label> 
+                     </div>
+
+
+                     <div class="mb-2">
+                      <input type="file" id="name"   name="name">   <label for="name" class="choose-radio">رفع الصورة<label> 
+                     </div>
+
+                      <div class="mb-2">
+                      <button class="btn btn-primary">حفظ</button> 
+                     </div>
+
+                  
+                       
+                  </form>
+                </div>
+            </div>  
+
+                     <div class="col-6 box box-change4 box-hide   mt-5">
+                  <div>
+                    
+                   <div class="rtl text-center title-box">بيانات القضية </div>
+                    <form class="ml-5 pl-5 form-big">
+                     <div class="mb-2">
+                      <input type="text" id="name"   name="name">   <label for="name" class=" choose-radio">رقم الشكوى </label>  
+
+                     </div>
+                     
+                     <div class="mb-2 ">
+                      <input type="text" id="name"   name="name">   <label for="name" class="choose-radio">اسم النيابة<label>  
+                     </div>
+
+                     <div class="mb-2">
+                      <input type="text" id="name"   name="name">   <label for="name" class="choose-radio">نوع الشكوى </label>  
+                     </div>
+
+                     <div class="mb-2">
+                        <textarea cols="40" rows="3"></textarea>
+                     </div>
+
+                          <div class="mb-2">
+                      <button class="btn btn-primary">حفظ</button> 
+                     </div>
+
+
+                  
+                       
+                  </form>
+                </div>
+            </div> 
+          </div>
+
+       
+
+          </div>
+
+
+
+
+        </div>
+
+
+     
+      </div> 
+     </main>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assts/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="assts/js/popper.min.js"></script>
+    <script src="assts/js/bootstrap.min.js"></script>
+    <script src="assts/js/jquery-3.4.1.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $('.btn-sidbar').click(function(){
+          $('#sidbar').toggle(1000);
+        });
+
+         $('.icons-input').click(function(){
+            $('.div-name').after('<div class="mb-2"><input type="text" id="name"   name="name"> </div>');
+         });
+
+           $('.icons2-input').click(function(){
+            $('.div-name2').after('<div class="mb-2"><input type="text" id="name"   name="name"> </div>');
+         });
+
+             $('.icons3-input').click(function(){
+            $('.div-name3').after('<div class="mb-2"><input type="text" id="name"   name="name"> </div>');
+         });
+
+               $('.icons4-input').click(function(){
+            $('.div-name4').after('<div class="mb-2"><input type="text" id="name"   name="name"> </div>');
+         });
+            
+            $('#radio1 , #radio11').click(function(){
+              $('.box-change').show();
+            });
+
+             $('#radio1').click(function(){
+              $('.box-change4').hide();
+            });
+
+                $('#radio2').click(function(){
+              $('.box-change').hide();
+              $('.box-main').removeClass('offset-md-7');
+              $('.box-main').addClass('offset-md-2');
+              $('.box-change2').show();
+            });
+
+                 $('#radio11').click(function(){
+              $('.box-change4').hide();
+            });
+
+                $('#radio22').click(function(){
+              $('.box-change4').show();
+              $('.box-change').hide();
+            });
+             // var x= $("#radio1").prop('checked',true);
+             //  x= $("#radio1").prop('checked');
+             //  console.log(x);
+
+     //         $(window).resize(function(){     
+
+     //   if ($('body').width() < 920 ){
+
+              
+
+     //   }else{
+     //           console.log("big");
+
+     //   }
+     // });
+
+      });
+
+
+ 
+     
+    </script>
+  </body>
+</html>
